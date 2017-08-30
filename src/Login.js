@@ -66,20 +66,6 @@ class Login extends Component {
     return (
       <div>
         <MuiThemeProvider>
-          <AppBar
-            title="Login">
-            <table width="100%">
-         <tbody>
-           <tr style={s1}>
-             <td className="mui--appbar-height">Left Side</td>
-             <td className="mui--appbar-height" style={s2}>Right Side</td>
-           </tr>
-         </tbody>
-       </table>
-            
-          </AppBar>
-        </MuiThemeProvider>
-        <MuiThemeProvider>
           <div>
             <TextField
               floatingLabelText="Email ID"
